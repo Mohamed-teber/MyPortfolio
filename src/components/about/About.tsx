@@ -22,7 +22,7 @@ export const About: React.FC<AboutProps> = ({ onOpenCvModal }) => {
           {/* Main narrative */}
           <div className="lg:col-span-7 space-y-6 text-slate-300 text-sm sm:text-base leading-relaxed">
             <p>
-              I am an <strong className="text-white font-medium">IT Systems, Cloud & Network Infrastructure Engineer</strong> with over 7 years of hands-on experience building, scaling, and safeguarding corporate IT environments. My journey began with core operating systems and physical networking, evolving through virtualization clusters into today's hybrid cloud ecosystems.
+              I am an <strong className="text-white font-medium">IT Systems, Hybrid-Cloud & Network Infrastructure Engineer</strong> with over 6 years of hands-on experience building, scaling, and safeguarding corporate IT environments. My journey began with core operating systems and physical networking, evolving through virtualization clusters into today's hybrid cloud ecosystems.
             </p>
 
             <p>
@@ -106,7 +106,7 @@ export const About: React.FC<AboutProps> = ({ onOpenCvModal }) => {
                 </div>
                 <div className="flex items-center justify-between pb-2.5 border-b border-slate-800/70">
                   <span className="text-slate-400">Total Experience:</span>
-                  <span className="text-slate-200 font-medium">7+ Years in Systems & Networks</span>
+                  <span className="text-slate-200 font-medium">6+ Years in Systems & Networks</span>
                 </div>
                 <div className="flex items-center justify-between pb-2.5 border-b border-slate-800/70">
                   <span className="text-slate-400">Primary Focus:</span>
