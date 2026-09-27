@@ -20,14 +20,14 @@ export const StatusCard: React.FC<StatusCardProps> = ({ onOpenTerminal }) => {
               <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
             </span>
             <span className="text-xs font-mono font-medium text-emerald-400 uppercase tracking-wider">
-              Engineering Status · Active
+              Technician Status · Active
             </span>
           </div>
           <h3 className="text-xl sm:text-2xl font-bold text-white font-display">
             Infrastructure & Operations Profile
           </h3>
           <p className="text-sm text-slate-400 mt-1 max-w-2xl">
-            Currently accepting opportunities for Senior Systems Administrator, Cloud Infrastructure Engineer, and IT Operations Lead positions in Paris / Remote.
+            Currently accepting opportunities for Senior Systems Administrator, Hybrid-Cloud & Network Infrastructure Technician, and IT Operations Lead positions in Tunis / Remote.
           </p>
         </div>
 
@@ -64,10 +64,10 @@ export const StatusCard: React.FC<StatusCardProps> = ({ onOpenTerminal }) => {
         </div>
 
         <div className="bg-slate-950/60 border border-slate-800/80 rounded-xl p-4 space-y-1.5">
-          <div className="flex items-center justify-between text-slate-400 text-xs">
+          {/* <div className="flex items-center justify-between text-slate-400 text-xs">
             <span>Resiliency Target</span>
             <HardDrive className="w-3.5 h-3.5 text-indigo-400" />
-          </div>
+          </div> */}
           <div className="text-xl font-bold font-mono text-white tabular-nums">&lt; 15 min RTO</div>
           <div className="text-[11px] text-slate-500">Veeam v12 immutable repos</div>
         </div>
@@ -77,7 +77,7 @@ export const StatusCard: React.FC<StatusCardProps> = ({ onOpenTerminal }) => {
             <span>Perimeter Defense</span>
             <Shield className="w-3.5 h-3.5 text-amber-400" />
           </div>
-          <div className="text-xl font-bold font-mono text-white tabular-nums">Fortinet & Cisco</div>
+          <div className="text-xl font-bold font-mono text-white tabular-nums">Fortinet </div>
           <div className="text-[11px] text-slate-500">IPsec Mesh & 802.1X NAC</div>
         </div>
       </div>

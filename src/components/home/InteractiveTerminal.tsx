@@ -84,9 +84,9 @@ export const InteractiveTerminal: React.FC<InteractiveTerminalProps> = ({ isOpen
           <div className="text-cyan-400 font-bold">DistinguishedName: CN=Mohamed Teber,OU=Engineers,DC=infra,DC=teber,DC=fr</div>
           <div>GivenName       : Mohamed</div>
           <div>Surname         : Teber</div>
-          <div>Title           : Senior IT Systems, Cloud & Network Infrastructure Engineer</div>
+          <div>Title           : Senior IT Systems, Hybrid-Cloud & Network Infrastructure</div>
           <div>EmailAddress    : {PERSONAL_INFO.email}</div>
-          <div>Location        : Paris, France</div>
+          <div>Location        : Tunis, Tunisia</div>
           <div>UAC             : NORMAL_ACCOUNT (PasswordNeverExpires = False, MFA = Enforced)</div>
           <div>MemberOf        : Domain Admins, Enterprise Admins, VMware-Admins, M365-Global-Admins</div>
         </div>

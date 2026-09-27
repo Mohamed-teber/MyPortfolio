@@ -8,7 +8,7 @@ export const TopologyViewer: React.FC = () => {
     virtualization: {
       title: 'Enterprise Compute & Virtualization Fabric',
       subtitle: 'Tier-3 Datacenter Multi-Node Cluster',
-      tech: 'VMware vSphere 8.0 · vCenter Server · vSAN ESA',
+      tech: 'VMware vSphere 8.0 · vCenter Server ',
       description: 'Fault-tolerant 3-node Dell PowerEdge R750 cluster running VMware ESXi 8.0. Automated Distributed Resource Scheduler (DRS) and High Availability (HA) with NVMe software-defined storage pooling.',
       specs: ['192 CPU Cores & 1.5 TB ECC RAM', '68 TB vSAN NVMe Storage Array (RAID-5 ESA)', 'Dual redundant 25GbE Mellanox fabrics', 'Zero-downtime vMotion live workload migrations'],
     },
@@ -29,7 +29,7 @@ export const TopologyViewer: React.FC = () => {
     backup: {
       title: 'Immutable Cyber Resiliency & Disaster Recovery',
       subtitle: '3-2-1-1-0 Ransomware-Proof Architecture',
-      tech: 'Veeam Backup & Replication v12 · Hardened Linux Repo',
+      tech: 'Veeam Backup & Replication v12 ',
       description: 'Isolated physical Rocky Linux repository with immutable XFS reflinking and single-use non-domain credentials. Secondary archive copy to AWS S3 Glacier with Object Lock.',
       specs: ['RTO: 14 minutes with Instant VM Recovery', 'RPO: < 1 hour for all transactional databases', '30-day hardware immutable retention window', 'Automated daily SureBackup verification sandbox'],
     },

@@ -34,21 +34,21 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCvModal, onOpenContact }) => {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
               </span>
-              <span>Available for Senior IT / Systems & Cloud Engineering</span>
+              <span>Available for Senior IT / Systems & Networks</span>
               <span aria-hidden="true" className="text-slate-600">·</span>
               <span className="text-slate-400 flex items-center gap-1">
-                <MapPin className="w-3 h-3 text-cyan-400" /> Paris, France
+                <MapPin className="w-3 h-3 text-cyan-400" /> Tunis, Tunisia
               </span>
             </div>
 
             {/* Main Headline */}
             <div className="space-y-3">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white font-display leading-[1.1] text-balance">
-                Architecting Resilient{' '}
+                Infrastructure{' '}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-blue-400">
                   IT Systems
                 </span>
-                , Cloud & Networks.
+                , Networks.
               </h1>
               <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl font-light">
                 Hi, I'm <strong className="text-white font-semibold">{PERSONAL_INFO.name}</strong>. I design, deploy, and harden enterprise-grade datacenter virtualization, Microsoft 365 hybrid migrations, and ransomware-proof disaster recovery architectures.
@@ -59,7 +59,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCvModal, onOpenContact }) => {
             <div className="flex flex-wrap items-center gap-y-2 gap-x-4 text-xs sm:text-sm text-slate-400 pt-1">
               <div className="flex items-center gap-1.5 text-slate-300">
                 <Server className="w-4 h-4 text-cyan-400" />
-                <span>VMware vSphere & vSAN</span>
+                <span>VMware vSphere </span>
               </div>
               <span aria-hidden="true" className="text-slate-700">·</span>
               <div className="flex items-center gap-1.5 text-slate-300">
@@ -69,12 +69,12 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCvModal, onOpenContact }) => {
               <span aria-hidden="true" className="text-slate-700">·</span>
               <div className="flex items-center gap-1.5 text-slate-300">
                 <ShieldCheck className="w-4 h-4 text-emerald-400" />
-                <span>Active Directory & CIS Hardening</span>
+                <span>Active Directory </span>
               </div>
               <span aria-hidden="true" className="text-slate-700">·</span>
               <div className="flex items-center gap-1.5 text-slate-300">
                 <Network className="w-4 h-4 text-indigo-400" />
-                <span>Fortinet & Cisco Network Defense</span>
+                <span>Fortinet & PfSense </span>
               </div>
             </div>
 
@@ -147,7 +147,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCvModal, onOpenContact }) => {
                   <div className="fallback-container hidden absolute inset-0 bg-gradient-to-br from-slate-900 to-slate-950 flex flex-col items-center justify-center p-6 text-center">
                     <Server className="w-16 h-16 text-cyan-400/80 mb-3" />
                     <span className="text-lg font-bold font-display text-white">Mohamed Teber</span>
-                    <span className="text-xs text-slate-400 mt-1">Systems & Network Engineer</span>
+                    <span className="text-xs text-slate-400 mt-1">Systems & Network Technician</span>
                   </div>
 
                   {/* Subtle contrast gradient for caption overlay */}
@@ -161,13 +161,13 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCvModal, onOpenContact }) => {
                     </div>
                     <div className="bg-slate-950/80 backdrop-blur-md px-3 py-1.5 rounded-lg border border-slate-800 flex items-center gap-1.5 text-slate-300">
                       <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
-                      <span>7+ Years Exp</span>
+                      <span>6+ Years Exp</span>
                     </div>
                   </div>
                 </div>
 
                 {/* Quick specs footer below image */}
-                <div className="p-5 bg-slate-900/60 border-t border-slate-800/80 space-y-2 text-xs">
+                {/* <div className="p-5 bg-slate-900/60 border-t border-slate-800/80 space-y-2 text-xs">
                   <div className="flex items-center justify-between text-slate-400">
                     <span>Key Certifications:</span>
                     <span className="text-slate-200 font-mono">AZ-104 · MS-102 · VCP-DCV · CCNA</span>
@@ -176,7 +176,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCvModal, onOpenContact }) => {
                     <span>Core Methodologies:</span>
                     <span className="text-slate-200">ITIL v4 · Zero Trust · CIS Hardening</span>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
